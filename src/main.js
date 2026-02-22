@@ -46,6 +46,7 @@ async function startGame() {
   renderer.shadowMap.type = THREE.PCFSoftShadowMap;
   renderer.toneMapping = THREE.ACESFilmicToneMapping;
   renderer.toneMappingExposure = 1.0;
+  renderer.outputColorSpace = THREE.SRGBColorSpace;
   document.getElementById('game-container').appendChild(renderer.domElement);
 
   // ── Scene ──

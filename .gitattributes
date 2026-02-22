@@ -1,0 +1,6 @@
+# Treat all GLB/GLTF files as binary — prevents Windows line-ending corruption
+*.glb binary
+*.gltf binary
+
+# Standard text normalisation
+* text=auto
